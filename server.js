@@ -71,7 +71,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "https://phases-api.onrender.com/api"); 
   res.header("Access-Control-Allow-Origin", "http://127.0.0.1:5500");
-  res.header("Access-Control-Allow-Origin", "http://27.109.14.76:808' "); 
+  res.header("Access-Control-Allow-Origin", "http://27.109.14.76:808"); 
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
