@@ -74,9 +74,6 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "http://27.109.14.76:808"); 
   res.header("Access-Control-Allow-Origin", "https://mindspark-ei.s3.amazonaws.com"); 
   res.header("Access-Control-Allow-Origin", "https://d2tl1spkm4qpax.cloudfront.net"); 
-  res.header("Access-Control-Allow-Origin", " https://mindspark-ei.s3.amazonaws.com"); 
-
- 
  
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
